@@ -12,6 +12,9 @@ Implement Indexing and Searching for Cranfield Dataset using Lucene
 ```java -jar target/LuceneWebSearch-0.0.1-SNAPSHOT.jar StandardAnalyzer BM25Similarity```
 
 # For evaluation using trec_eval
+## Go to trec_eval folder
+```cd trec_eval-9.0.7/```
+## Execute the trec_eval
 ```./trec_eval ../DataSet/QRelsCorrectedforTRECeval ../SearchResult/searching_<Analyzer>_<Similarity>/SearchResult.txt```
-## For Example
+### For Example
 ```./trec_eval ../DataSet/QRelsCorrectedforTRECeval ../SearchResult/searching_StandardAnalyzer_BM25Similarity/SearchResult.txt```
