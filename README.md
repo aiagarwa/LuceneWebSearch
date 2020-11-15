@@ -1,6 +1,9 @@
 # LuceneWebSearch
 Implement Indexing and Searching for Cranfield Dataset using Lucene
 
+## Go to application folder
+```cd LuceneWebSearch```
+
 # Build the jar with latest code
 ```mvn package```
 
